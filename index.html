@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- 
+  Declara el tipo de documento como HTML5.
+  Es obligatorio para que el navegador interprete correctamente el código.
+-->
+<html lang="es">
+<!-- 
+  lang="es" indica que el contenido está en español.
+-->
+
+<head>
+  <!-- Codificación de caracteres para permitir tildes, ñ, símbolos -->
+  <meta charset="UTF-8">
+
+  <!-- Hace que el sitio sea responsive en celulares -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título que aparece en la pestaña del navegador -->
+  <title>Restaurante Bar Mirador de las Camelias</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <!-- Conexión con el archivo CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- ===================== -->
+  <!-- HEADER / IDENTIDAD -->
+  <!-- ===================== -->
+  <header class="header">
+    <!-- Nombre principal del restaurante -->
+    <h1>🍽️ Restaurante Bar Mirador de las Camelias</h1>
+
+    <!-- Frase corta o concepto del negocio -->
+    <p>Cocina artesanal & bebidas especiales</p>
+  </header>
+
+  <!-- ===================== -->
+  <!-- CATEGORÍAS DEL MENÚ -->
+  <!-- ===================== -->
+  <nav class="categories">
+    <!-- 
+      Cada botón ejecuta una función de JavaScript.
+      El texto entre comillas es la categoría que se filtra.
+    -->
+
+
+    <button class="category-btn" data-category="picadas">Picadas</button>
+    <button class="category-btn" data-category="cervezas">Cervezas</button>
+    <button class="category-btn" data-category="michelados">Michelados</button>
+    <button class="category-btn" data-category="licores - bar">Licores - Bar</button>
+    <button class="category-btn" data-category="bebidas gaseosas">Bebidas gaseosas</button>
+    <button class="category-btn" data-category="dulceria - bar">Dulceria Bar</button>
+    <button class="category-btn" data-category="jugos naturales">Jugos naturales</button>
+    <button class="category-btn" data-category="heladeria">Heladeria</button>
+    <button class="category-btn" data-category="cocteles">Cocteles</button>
+    <button class="category-btn" data-category="bebidas sin alcohol">Bebidas sin alcohol</button>
+    <button class="category-btn" data-category="granizados con alcohol">Granizados con alcohol</button>
+    <button class="category-btn" data-category="whiskys">Whisky</button>
+    <button class="category-btn" data-category="tequilas">Tequila</button>
+    <button class="category-btn" data-category="ron">Ron</button>
+    <button class="category-btn" data-category="vodka">Vodka</button>
+    <button class="category-btn" data-category="licores">Licores</button>
+    <button class="category-btn" data-category="vinos">Vinos</button>
+    <button class="category-btn" data-category="vino blanco">Vino blanco</button>
+    <button class="category-btn" data-category="espumosos">Espumosos</button>
+    <button class="category-btn" data-category="bebidas calientes - cafe">Bebidas calientes</button>
+    <button class="category-btn" data-category="embotellados - cocteleria">Embotellados - Cocteleria</button>
+    <button class="category-btn" data-category="adicionales">Adicionales</button>
+    <button class="category-btn" data-category="pasantes">Pasantes</button>
+  </nav>
+
+  <!-- ===================== -->
+  <!-- CONTENEDOR DEL MENÚ -->
+  <!-- ===================== -->
+  <main id="menu" class="menu-container">
+    <!-- 
+      IMPORTANTE:
+      Este contenedor empieza vacío.
+      El contenido se genera dinámicamente desde JavaScript.
+    -->
+  </main>
+
+  <!-- ===================== -->
+  <!-- FOOTER / INFORMACIÓN -->
+  <!-- ===================== -->
+  <footer class="footer">
+    <!-- Ubicación del restaurante -->
+    <p>📍 Pereira - Dosquebradas</p>
+
+    <!-- Enlace directo a WhatsApp -->
+    <a href="https://wa.me/573176050132" target="_blank">
+      📲 Contáctanos por WhatsApp
+    </a>
+    <!-- Enlace directo a Instagram -->
+    <a href="https://www.instagram.com/miradorlascamelias1?igsh=MXhweWhvYmt3cTV3Mg==" target="_blank">
+      📲 Contáctanos por Instagram
+    </a>
+  </footer>
+
+  <!-- ===================== -->
+  <!-- JAVASCRIPT -->
+  <!-- ===================== -->
+  <!-- 
+    Se carga al final para asegurar que todo el HTML
+    esté disponible antes de ejecutar el JS.
+  -->
+  <script src="menu.js"></script>
+</body>
+</html>
