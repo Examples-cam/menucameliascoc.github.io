@@ -180,7 +180,7 @@ const menuItems = [
     descripcion: "",
     precio: 249900,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023826/mediobuchanans_hlvzo8.jpg",
   },
   {
     nombre: "Trago - Buchanan's",
@@ -245,7 +245,7 @@ const menuItems = [
     descripcion: "",
     precio: 190400,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023829/mediojackdaniels_zye74v.jpg",
   },
   {
     nombre: "Trago - Jack Daniel's",
@@ -268,7 +268,7 @@ const menuItems = [
     descripcion: "",
     precio: 226100,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023831/mediojackdanielshoney_sz6ofd.jpg",
   },
 
   // GLENFIDDICH 12
@@ -362,7 +362,7 @@ const menuItems = [
     descripcion: "",
     precio: 35700,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023846/tragogrants_woljql.jpg",
   },
 
   // SOMETHING SPECIAL
@@ -378,7 +378,7 @@ const menuItems = [
     descripcion: "",
     precio: 119000,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023839/mediosomethingspecial_nvtywz.jpg",
   },
 
   // JOHNNIE WALKER BLACK
@@ -467,7 +467,7 @@ const menuItems = [
     descripcion: "",
     precio: 249900,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023815/botellajameson_uisqij.jpg",
   },
 
   // THE GLENLIVET
@@ -490,7 +490,7 @@ const menuItems = [
     descripcion: "",
     precio: 654500,
     categoria: "tequilas",
-    imagen: "",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023816/botellapatrona%C3%B1ejo_zqwidh.jpg",
   },
   {
     nombre: "Botella - Patrón Silver",
@@ -609,7 +609,7 @@ const menuItems = [
     descripcion: "",
     precio: 130900,
     categoria: "tequilas",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023834/mediojosecuervo_iylago.jpg",
   },
   {
     nombre: "Botella - Olmeca Reposado",
@@ -637,7 +637,7 @@ const menuItems = [
     descripcion: "",
     precio: 29750,
     categoria: "tequilas",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768024279/tragojimadorjpg_jkmlxm.jpg",
   },
   {
     nombre: "Botella - Maestro Dobel Diamante",
@@ -742,7 +742,7 @@ const menuItems = [
     descripcion: "",
     precio: 107100,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023820/mediobacardilimon_tkp77w.jpg",
   },
   {
     nombre: "Botella - Ron Havana Club 3 Años",
@@ -798,7 +798,7 @@ const menuItems = [
     descripcion: "",
     precio: 107100,
     categoria: "vodka",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023849/medioabsolut_pynqru.jpg",
   },
   {
     nombre: "Trago - Absolut (Raspberry-Mandarin)",
@@ -854,7 +854,7 @@ const menuItems = [
     descripcion: "",
     precio: 119000,
     categoria: "licores",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023823/mediobaileys_mb43zz.jpg",
   },
   {
     nombre: "Trago - Bailey's",
@@ -945,7 +945,7 @@ const menuItems = [
     descripcion: "",
     precio: 71400,
     categoria: "licores",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768024494/medioamarillo_wsy7jk.jpg",
   },
   {
     nombre: "Trago - Aguardiente Amarillo",
@@ -966,7 +966,7 @@ const menuItems = [
     descripcion: "",
     precio: 95200,
     categoria: "vinos",
-    imagen: "",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768023839/mediosangretorooriginal_iv9f9g.jpg",
   },
   {
     nombre: "Botella - Sangre de Toro Reserva",
