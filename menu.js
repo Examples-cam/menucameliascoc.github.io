@@ -300,7 +300,7 @@ const menuItems = [
     descripcion: "",
     precio: 249900,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999193/mediachivasregal12_ciywvu.jpg",
   },
   {
     nombre: "Trago - Chivas Regal 12",
@@ -323,7 +323,7 @@ const menuItems = [
     descripcion: "",
     precio: 285600,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768018521/mediachivasregalextra_erccut.jpg",
   },
   {
     nombre: "Trago - Chivas Regal Extra",
@@ -348,14 +348,14 @@ const menuItems = [
     descripcion: "",
     precio: 214200,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768018613/botellagrants_ru0uvu.jpg",
   },
   {
     nombre: "Media - Grant's",
     descripcion: "",
     precio: 142800,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768018614/mediagrants_hibeh3.jpg",
   },
   {
     nombre: "Trago - Grant's",
@@ -394,7 +394,7 @@ const menuItems = [
     descripcion: "",
     precio: 190400,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999188/mediablacklabel_bg4fdp.jpg",
   },
 
   // JOHNNIE WALKER RED
@@ -410,7 +410,7 @@ const menuItems = [
     descripcion: "",
     precio: 142800,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999207/mediaredlabel_bsuw6s.jpg",
   },
 
   // PASSPORT
@@ -426,7 +426,7 @@ const menuItems = [
     descripcion: "",
     precio: 107100,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999203/mediapassport_ambhn1.jpg",
   },
 
   // BLACK & WHITE
@@ -442,7 +442,7 @@ const menuItems = [
     descripcion: "",
     precio: 107100,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999192/mediablackwhite_ncjnwb.jpg",
   },
 
   // BALLANTINE'S
@@ -458,7 +458,7 @@ const menuItems = [
     descripcion: "",
     precio: 107100,
     categoria: "whiskys",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999187/mediaballantines_siqoo7.jpg",
   },
 
   // JAMESON
@@ -553,14 +553,14 @@ const menuItems = [
     descripcion: "",
     precio: 178500,
     categoria: "tequilas",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768019148/mediojimadorreposado_xnwfuo.jpg",
   },
    {
     nombre: "Botella - Jimador Silver",
     descripcion: "",
     precio: 416500,
     categoria: "tequilas",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999056/botellajimadorsilver_k9w2hv.jpg",
   },
   {
     nombre: "Botella - 1800 Añejo",
@@ -672,14 +672,14 @@ const menuItems = [
     descripcion: "",
     precio: 119000,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999224/medioroncaldas8_qnr6wh.jpg",
   },
    {
     nombre: "Medio - Ron Medellin 8 Años",
     descripcion: "",
     precio: 119000,
     categoria: "ron",
-    imagen: "",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999227/medioronmedellin8_kdltvy.jpg",
   },
    {
     nombre: "Botella - Ron Viejo 5 Años",
@@ -700,14 +700,14 @@ const menuItems = [
     descripcion: "",
     precio: 83300,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999220/medioroncaldas5_ddqkqz.jpg",
   },
    {
     nombre: "Medio - Ron Medellin 5 Años",
     descripcion: "",
     precio: 83300,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999225/medioronmedellin5_yihsom.jpg",
   },
   {
     nombre: "Trago - Ron Caldas",
@@ -721,21 +721,21 @@ const menuItems = [
     descripcion: "",
     precio: 404600,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999279/ronparce8_itlnhe.jpg",
   },
   {
     nombre: "Botella - Ron Parce 12 Años",
     descripcion: "",
     precio: 654500,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999280/ronparce12_ngqsss.jpg",
   },
   {
     nombre: "Botella - Ron Bacardí Limón",
     descripcion: "",
     precio: 178500,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767998984/botellabacardilimon_taorcz.jpg",
   },
    {
     nombre: "Media - Ron Bacardí Limón",
@@ -749,28 +749,28 @@ const menuItems = [
     descripcion: "",
     precio: 154700,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999150/havanaclub3_uovvwm.jpg",
   },
   {
     nombre: "Botella - Ron Havana Club 7 Años",
     descripcion: "",
     precio: 214200,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999151/havanaclub7_pac5lq.jpg",
   },
   {
     nombre: "Botella - Ron Barceló",
     descripcion: "",
     precio: 404600,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768019926/ronbarcelo_hkgfoy.jpg",
   },
   {
     nombre: "Botella - Ron Cheers",
     descripcion: "",
     precio: 154700,
     categoria: "ron",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999275/roncheers_aedp3z.jpg",
   },
   {
     nombre: "Botella - Grey Goose",
@@ -819,7 +819,7 @@ const menuItems = [
     descripcion: "",
     precio: 119000,
     categoria: "vodka",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999232/mediosmirnoff_hrpgem.jpg",
   },
   {
     nombre: "Botella - Smirnoff Lulo",
@@ -833,7 +833,7 @@ const menuItems = [
     descripcion: "",
     precio: 59500,
     categoria: "vodka",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999237/mediosmirnofflulo_il0mqp.jpg",
   },
   {
     nombre: "Botella - Disaronno Amaretto",
@@ -973,7 +973,7 @@ const menuItems = [
     descripcion: "",
     precio: 261800,
     categoria: "vinos",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999285/sangretororeserva_jxi35n.jpg",
   },
   {
     nombre: "Botella - Gato Negro Merlot",
@@ -1001,7 +1001,7 @@ const menuItems = [
     descripcion: "",
     precio: 25000,
     categoria: "vinos",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999261/picologatonegro_mrzffo.jpg",
   },
   {
     nombre: "Botella - Casillero del Diablo Merlot",
@@ -1078,7 +1078,7 @@ const menuItems = [
     descripcion: "",
     precio: 295500,
     categoria: "vinos",
-    imagen: "productos_imagenes/cocteleria/insertarnombre",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999060/botellamarquescasaconcha_o0hyik.jpg",
   },
   {
     nombre: "Botella - Cono Sur Bicicleta Reserva",
