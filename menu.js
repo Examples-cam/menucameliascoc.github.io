@@ -1159,8 +1159,7 @@ const menuItems = [
     descripcion: "",
     precio: 20230,
     categoria: "espumosos",
-    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999059/botellajp_vdcx2i.jpg
-",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999059/botellajp_vdcx2i.jpg",
   },
   {
     nombre: "Café",
