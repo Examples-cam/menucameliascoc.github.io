@@ -1415,6 +1415,8 @@ const menuItems = [
 /* ===============================
    2. REFERENCIAS DOM
 ================================ */
+const categoria = "cocteles";
+renderMenu(menuItems.filter(item => item.categoria === categoria));
 
 const menuContainer = document.getElementById("menu");
 const categoryButtons = document.querySelectorAll(".category-btn");
