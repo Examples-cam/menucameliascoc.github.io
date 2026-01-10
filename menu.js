@@ -1415,11 +1415,6 @@ const menuItems = [
 /* ===============================
    2. REFERENCIAS DOM
 ================================ */
-document.addEventListener("DOMContentLoaded", () => {
-  const cocteles = menuItems.filter(item => item.categoria === "cocteles");
-  renderMenu(cocteles);
-});
-
 
 const menuContainer = document.getElementById("menu");
 const categoryButtons = document.querySelectorAll(".category-btn");
@@ -1431,6 +1426,11 @@ const categoryButtons = document.querySelectorAll(".category-btn");
 
 function renderMenu(items) {
   menuContainer.innerHTML = "";
+   
+   document.addEventListener("DOMContentLoaded", () => {
+  const cocteles = menuItems.filter(item => item.categoria === "cocteles");
+  renderMenu(cocteles);
+});
 
   if (!items || items.length === 0) {
     menuContainer.innerHTML = "<p>No hay productos disponibles</p>";
