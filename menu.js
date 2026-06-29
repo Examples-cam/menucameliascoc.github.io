@@ -555,13 +555,6 @@ const menuItems = [
     categoria: "tequilas",
     imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1768019148/mediojimadorreposado_xnwfuo.jpg",
   },
-   {
-    nombre: "Botella - Jimador Silver",
-    descripcion: "",
-    precio: 416500,
-    categoria: "tequilas",
-    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999056/botellajimadorsilver_k9w2hv.jpg",
-  },
   {
     nombre: "Botella - Jimador Cristalino",
     descripcion: "",
@@ -1335,7 +1328,7 @@ const menuItems = [
   {
     nombre: "Gatorade",
     descripcion: "",
-    precio: 7150,
+    precio: 7800,
     categoria: "embotellados - cocteleria",
     imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999139/gatorade_gzlvpi.jpg",
   },
