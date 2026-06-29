@@ -563,6 +563,13 @@ const menuItems = [
     imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_auto,c_scale,q_auto,f_auto/v1767999056/botellajimadorsilver_k9w2hv.jpg",
   },
   {
+    nombre: "Botella - Jimador Cristalino",
+    descripcion: "",
+    precio: 416500,
+    categoria: "tequilas",
+    imagen: "https://res.cloudinary.com/dvx8yz3sc/image/upload/v1782694292/IMG-20260628-WA0009_av4lu2.jpg",
+  },
+  {
     nombre: "Botella - 1800 Añejo",
     descripcion: "",
     precio: 499800,
