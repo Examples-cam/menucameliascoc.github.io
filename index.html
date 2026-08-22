@@ -1,104 +1,649 @@
 <!DOCTYPE html>
-<!-- 
-  Declara el tipo de documento como HTML5.
-  Es obligatorio para que el navegador interprete correctamente el código.
--->
 <html lang="es">
-<!-- 
-  lang="es" indica que el contenido está en español.
--->
 
 <head>
-  <!-- Codificación de caracteres para permitir tildes, ñ, símbolos -->
   <meta charset="UTF-8">
 
-  <!-- Hace que el sitio sea responsive en celulares -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-  <!-- Título que aparece en la pestaña del navegador -->
-  <title>Restaurante Bar Mirador de las Camelias</title>
+  <meta
+    name="theme-color"
+    content="#f3eee6"
+  >
 
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <meta
+    name="description"
+    content="Coctelería, licores y bebidas especiales — Mirador de las Camelias"
+  >
 
+  <title>Coctelería | Mirador de las Camelias</title>
 
-  <!-- Conexión con el archivo CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <!-- ==============================
+       FUENTES
+  =============================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- ==============================
+       CSS
+  =============================== -->
+
+  <link
+    rel="stylesheet"
+    href="cocteleria.css"
+  >
 </head>
 
+
 <body>
-  <!-- ===================== -->
-  <!-- HEADER / IDENTIDAD -->
-  <!-- ===================== -->
-  <header class="header">
-    <!-- Nombre principal del restaurante -->
-    <h1>🍽️ Restaurante Bar Mirador de las Camelias</h1>
 
-    <!-- Frase corta o concepto del negocio -->
-    <p>Cocina artesanal & bebidas especiales</p>
-  </header>
+  <div class="page-shell">
 
-  <!-- ===================== -->
-  <!-- CATEGORÍAS DEL MENÚ -->
-  <!-- ===================== -->
-  <nav class="categories">
-    <!-- 
-      Cada botón ejecuta una función de JavaScript.
-      El texto entre comillas es la categoría que se filtra.
-    -->
+    <!-- ==================================================
+         HEADER
+    =================================================== -->
+
+    <header
+      class="site-header"
+      id="inicio"
+    >
+
+      <!-- MARCA -->
+
+      <a
+        class="brand"
+        href="#inicio"
+        aria-label="Mirador Coctelería"
+      >
+
+        <span class="brand-mark">
+          M
+        </span>
+
+        <span class="brand-copy">
+
+          <strong>
+            MIRADOR
+          </strong>
+
+          <small>
+            COCTELERÍA
+          </small>
+
+        </span>
+
+      </a>
 
 
-    <button class="category-btn" data-category="cocteles">Cocteles</button>
-    <button class="category-btn" data-category="bebidas sin alcohol">Bebidas sin alcohol</button>
-    <button class="category-btn" data-category="granizados con alcohol">Granizados con alcohol</button>
-    <button class="category-btn" data-category="whiskys">Whisky</button>
-    <button class="category-btn" data-category="tequilas">Tequila</button>
-    <button class="category-btn" data-category="ron">Ron</button>
-    <button class="category-btn" data-category="vodka">Vodka</button>
-    <button class="category-btn" data-category="licores">Licores</button>
-    <button class="category-btn" data-category="vinos">Vinos</button>
-    <button class="category-btn" data-category="vino blanco">Vino blanco</button>
-    <button class="category-btn" data-category="espumosos">Espumosos</button>
-    <button class="category-btn" data-category="bebidas calientes - cafe">Bebidas calientes</button>
-    <button class="category-btn" data-category="embotellados - cocteleria">Embotellados - Cocteleria</button>
-    <button class="category-btn" data-category="adicionales">Adicionales</button>
-    <button class="category-btn" data-category="pasantes">Pasantes</button>
-  </nav>
+      <!-- NAVEGACIÓN ESCRITORIO -->
 
-  <!-- ===================== -->
-  <!-- CONTENEDOR DEL MENÚ -->
-  <!-- ===================== -->
-  <main id="menu" class="menu-container">
-    <!-- 
-      IMPORTANTE:
-      Este contenedor empieza vacío.
-      El contenido se genera dinámicamente desde JavaScript.
-    -->
-  </main>
+      <nav
+        class="desktop-nav"
+        aria-label="Navegación principal"
+      >
 
-  <!-- ===================== -->
-  <!-- FOOTER / INFORMACIÓN -->
-  <!-- ===================== -->
-  <footer class="footer">
-    <!-- Ubicación del restaurante -->
-    <p>📍 Pereira - Dosquebradas</p>
+        <a href="index.html">
+          RESTAURANTE
+        </a>
 
-    <!-- Enlace directo a WhatsApp -->
-    <a href="https://wa.me/573176050132" target="_blank">
-      📲 Contáctanos por WhatsApp
-    </a>
-    <!-- Enlace directo a Instagram -->
-    <a href="https://www.instagram.com/miradorlascamelias1?igsh=MXhweWhvYmt3cTV3Mg==" target="_blank">
-      📲 Contáctanos por Instagram
-    </a>
-  </footer>
+        <a href="jugos-heladeria.html">
+          JUGOS & HELADERÍA
+        </a>
 
-  <!-- ===================== -->
-  <!-- JAVASCRIPT -->
-  <!-- ===================== -->
-  <!-- 
-    Se carga al final para asegurar que todo el HTML
-    esté disponible antes de ejecutar el JS.
-  -->
-  <script src="menu.js"></script>
+        <a
+          class="is-active"
+          href="#menu"
+        >
+          COCTELERÍA
+        </a>
+
+        <a href="cerveceria.html">
+          CERVECERÍA
+        </a>
+
+        <a href="bebidas-calientes.html">
+          BEBIDAS CALIENTES
+        </a>
+
+      </nav>
+
+
+      <!-- ACCIONES HEADER -->
+
+      <div class="header-actions">
+
+        <a
+          class="reserve-button"
+          href="#menu"
+        >
+          VER MENÚ
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- ==================================================
+         MENÚ MÓVIL
+    =================================================== -->
+
+    <div
+      class="mobile-nav"
+      id="mobileNav"
+      aria-hidden="true"
+    >
+
+      <a href="index.html">
+        RESTAURANTE
+      </a>
+
+      <a href="jugos-heladeria.html">
+        JUGOS & HELADERÍA
+      </a>
+
+      <a
+        href="#menu"
+        class="is-active"
+      >
+        COCTELERÍA
+      </a>
+
+      <a href="cerveceria.html">
+        CERVECERÍA
+      </a>
+
+      <a href="bebidas-calientes.html">
+        BEBIDAS CALIENTES
+      </a>
+
+      <a href="#footer">
+        CONTACTO
+      </a>
+
+    </div>
+
+
+    <!-- ==================================================
+         CONTENIDO PRINCIPAL
+    =================================================== -->
+
+    <main>
+
+
+      <!-- ==================================================
+           HERO
+      =================================================== -->
+
+      <section
+        class="hero"
+        aria-labelledby="heroTitle"
+      >
+
+        <div class="hero-copy reveal">
+
+          <p class="eyebrow">
+            COCTELES · LICORES · EXPERIENCIAS
+          </p>
+
+
+          <h1 id="heroTitle">
+
+            MOMENTOS QUE
+            <br>
+
+            <em>
+              SE MEZCLAN
+            </em>
+
+          </h1>
+
+
+          <div
+            class="ornament"
+            aria-hidden="true"
+          >
+            ✦
+          </div>
+
+
+          <p class="hero-text">
+
+            Una selección de cocteles, licores y bebidas
+            especiales para acompañar cada momento.
+
+          </p>
+
+
+          <a
+            class="outline-button"
+            href="#menu"
+          >
+
+            EXPLORAR CARTA
+
+            <span>
+              ↗
+            </span>
+
+          </a>
+
+        </div>
+
+
+        <!-- VISUAL HERO -->
+
+        <div class="hero-visual reveal">
+
+          <div class="hero-halo"></div>
+
+          <div class="hero-ring"></div>
+
+
+          <!--
+            Imagen principal.
+            Puedes cambiar esta URL posteriormente
+            por la imagen definitiva de Coctelería.
+          -->
+
+          <img
+            id="heroImage"
+            src="https://res.cloudinary.com/dvx8yz3sc/image/upload/f_auto,q_auto,w_1000,dpr_auto/v1767999146/granizadocafe_a5dlip.jpg"
+            alt="Bebida de coctelería"
+          >
+
+
+          <div class="hero-caption">
+
+            <span>
+              01
+            </span>
+
+            <i></i>
+
+            <span>
+              COCTELERÍA
+            </span>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- ==================================================
+           CATEGORÍAS
+      =================================================== -->
+
+      <section
+        class="category-section"
+        id="menu"
+      >
+
+        <div class="section-kicker">
+          EXPLORA LA CARTA
+        </div>
+
+
+        <!--
+          El JavaScript generará aquí
+          los botones de las categorías.
+        -->
+
+        <div
+          class="categories"
+          id="categories"
+          role="tablist"
+          aria-label="Categorías de coctelería"
+        ></div>
+
+      </section>
+
+
+      <!-- ==================================================
+           PRODUCTOS PRINCIPALES
+      =================================================== -->
+
+      <section
+        class="products-section"
+        id="productos"
+      >
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <p class="eyebrow">
+              SELECCIÓN DEL BAR
+            </p>
+
+            <h2 id="categoryTitle">
+              COCTELES
+            </h2>
+
+          </div>
+
+
+          <button
+            class="view-all"
+            id="viewAll"
+            type="button"
+          >
+
+            VER TODAS
+
+            <span>
+              →
+            </span>
+
+          </button>
+
+        </div>
+
+
+        <!--
+          El JavaScript insertará
+          dinámicamente los productos aquí.
+        -->
+
+        <div
+          class="menu-container"
+          id="menuContainer"
+        ></div>
+
+      </section>
+
+
+      <!-- ==================================================
+           SECCIÓN DESTACADA
+      =================================================== -->
+
+      <section
+        class="feature-section reveal"
+        id="experiencia"
+      >
+
+        <div class="feature-copy">
+
+          <p class="eyebrow">
+            NUESTRO BAR
+          </p>
+
+
+          <h2>
+
+            UNA NOCHE
+            <br>
+
+            <em>
+              PARA RECORDAR
+            </em>
+
+          </h2>
+
+
+          <p>
+
+            Cocteles, sabores y bebidas especiales
+            preparados para disfrutar cada momento.
+
+          </p>
+
+
+          <button
+            class="outline-button"
+            id="featureButton"
+            type="button"
+          >
+
+            VER COCTELERÍA
+
+            <span>
+              →
+            </span>
+
+          </button>
+
+        </div>
+
+
+        <div class="feature-visual">
+
+          <img
+            src="https://res.cloudinary.com/dvx8yz3sc/image/upload/f_auto,q_auto,w_1000,dpr_auto/v1767999146/granizadocafe_a5dlip.jpg"
+            alt="Selección de bebidas"
+          >
+
+
+          <div class="feature-badge">
+            COCTELERÍA
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- ==================================================
+           RESUMEN DE CATEGORÍAS
+      =================================================== -->
+
+      <section
+        class="category-summary"
+        id="categoriasResumen"
+      >
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <p class="eyebrow">
+              PARA CADA MOMENTO
+            </p>
+
+            <h2>
+              NUESTRA CARTA
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <!--
+          El JS podrá utilizar este contenedor
+          si posteriormente queremos mostrar
+          accesos visuales a las categorías.
+        -->
+
+        <div
+          class="summary-grid"
+          id="summaryGrid"
+        ></div>
+
+      </section>
+
+
+    </main>
+
+
+    <!-- ==================================================
+         FOOTER
+    =================================================== -->
+
+    <footer
+      class="site-footer"
+      id="footer"
+    >
+
+      <div>
+
+        <span class="brand-copy">
+
+          <strong>
+            MIRADOR
+          </strong>
+
+          <small>
+            COCTELERÍA
+          </small>
+
+        </span>
+
+
+        <p>
+          Pereira - Dosquebradas
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a
+          href="https://wa.me/573176050132"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WHATSAPP ↗
+        </a>
+
+
+        <a
+          href="https://www.instagram.com/miradorlascamelias1?igsh=MXhweWhvYmt3cTV3Mg=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          INSTAGRAM ↗
+        </a>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <!-- ==================================================
+       MODAL DE PRODUCTO
+  =================================================== -->
+
+  <div
+    class="modal"
+    id="productModal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="modal-backdrop"
+      data-close-modal
+    ></div>
+
+
+    <article
+      class="product-detail"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+
+      <button
+        class="modal-close"
+        type="button"
+        data-close-modal
+        aria-label="Cerrar"
+      >
+        ×
+      </button>
+
+
+      <div class="detail-image-wrap">
+
+        <img
+          id="modalImage"
+          src=""
+          alt=""
+        >
+
+      </div>
+
+
+      <div class="detail-content">
+
+        <p class="eyebrow">
+          DETALLES
+        </p>
+
+
+        <h2 id="modalTitle">
+        </h2>
+
+
+        <p id="modalDescription">
+        </p>
+
+
+        <div
+          class="detail-price"
+          id="modalPrice"
+        ></div>
+
+      </div>
+
+    </article>
+
+  </div>
+
+
+  <!-- ==================================================
+       BOTÓN VOLVER ARRIBA
+  =================================================== -->
+
+  <button
+    class="back-to-top"
+    id="backToTop"
+    type="button"
+    aria-label="Volver arriba"
+  >
+    ↑
+  </button>
+
+
+  <!-- ==================================================
+       JAVASCRIPT
+  =================================================== -->
+
+  <script src="cocteleria.js"></script>
+
 </body>
+
 </html>
