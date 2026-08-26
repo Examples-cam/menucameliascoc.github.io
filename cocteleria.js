@@ -176,19 +176,19 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Daiquiri",
       description: "Ron blanco, triple sec, limón - FRESA, MARACUYA, CEREZA.",
-      price: "$29.750",
+      price: "$26.100",
       image: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_700,q_auto,f_auto/v1767999107/daiquiri_q6e5qk.jpg"
     },
     {
       name: "Gin & Tonic",
       description: "Gin, agua tónica - FRUTOS ROJOS, PEPINO, MARACUYA.",
-      price: "$29.750",
+      price: "$35.700",
       image: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_700,q_auto,f_auto/v1767999143/gintonic_bz2xpd.jpg"
     },
     {
       name: "Piña Colada",
       description: "Ron blanco, crema de coco, piña.",
-      price: "$29.750",
+      price: "$35700",
       image: "https://res.cloudinary.com/dvx8yz3sc/image/upload/w_700,q_auto,f_auto/v1767999256/pinacolada_bq9cwv.jpg"
     },
     {
@@ -200,13 +200,13 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "El Mirador",
       description: "Vodka, maracuyá, triple sec, limón.",
-      price: "$33.350",
+      price: "$29.750",
       image: "productos_imagenes/cocteleria/insertarnombre"
     },
     {
       name: "Malibu Bay Breeze",
       description: "Malibú, jugo de piña, cranberry.",
-      price: "$29.750",
+      price: "$33.350",
       image: "productos_imagenes/cocteleria/insertarnombre"
     },
     {
